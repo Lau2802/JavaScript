@@ -25,7 +25,7 @@
      color: rgb(255, 0,0);
     font-family: 'Bebas Neue', cursive;  
     font-size: 12em; 
-     text-shadow: .03em .03em 0 hsla(0,100%,100%,1);
+     text-shadow: .03em .03em 0 rgb(255, 255, 255);
      }
 
   /* Creacion menú desplegable */
@@ -72,4 +72,20 @@ ul, ol {
 .lista li ul li ul {
     right:-140px;
     top:0px;
+}
+
+/*Estilos de los parrafos*/
+section {
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    clear: both;
+    padding-top: 25px;
+    padding-left: 20px;
+    text-align:start;
+}
+h2 {
+    border-bottom: solid;
+    border-bottom-width:medium;
+    margin-right: 70%;
+    margin-bottom: 10px;
 }
